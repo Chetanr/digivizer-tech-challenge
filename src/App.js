@@ -51,7 +51,6 @@ function App() {
                   <TableCell align="left">
                     {data.node["handle_history"].name}
                   </TableCell>
-                  <TableCell align="left">{data.node["date"]}</TableCell>
                   <TableCell align="left">{data.node["post"]}</TableCell>
                   <TableCell align="left">
                     <img

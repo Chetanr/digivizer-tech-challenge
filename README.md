@@ -4,6 +4,8 @@ The project is built using Reactjs(create-react-app). It has one main component 
 
 ### Running the code
 
+Make sure that you are in the root level of the project to perform the below steps.
+
 1. Install the components using `npm install`.
 
 2. To run the code, run `npm start`. A new tab will open on the browser.
