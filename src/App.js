@@ -49,8 +49,9 @@ function App() {
               return (
                 <TableRow key={data.node["post"]}>
                   <TableCell align="left">
-                    {data.node["handle_history"].name}
+                    {data.node["handle_history"].username}
                   </TableCell>
+                  <TableCell align="left">{data.node.date}</TableCell>
                   <TableCell align="left">{data.node["post"]}</TableCell>
                   <TableCell align="left">
                     <img
