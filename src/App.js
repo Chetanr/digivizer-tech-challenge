@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState, useEffect } from "react";
 import {
   Table,
@@ -8,7 +9,6 @@ import {
   TableRow,
   Paper,
 } from "@material-ui/core";
-import PanoramaIcon from "@material-ui/icons/Panorama";
 import postData from "./earned.json";
 
 function App() {
@@ -56,7 +56,7 @@ function App() {
                   <TableCell align="left">
                     <img
                       src={data.node["image_url"]}
-                      alt={PanoramaIcon}
+                      alt="Image"
                       width="100px"
                       height="100px"
                       thumbnail
