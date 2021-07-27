@@ -2,7 +2,7 @@ The project is built using Reactjs(create-react-app). There are 2 main component
 
 1. **App.js** : In this component, the data is retrieved from the json file. **useState** and **useEffect** have been used appropriately to retrieve and dsiplay the data.
 
-> - Before the data is being displayed, **sort()** (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) function along with **map()** has been used to sort the data based on the engagement.
+> - Before the data is being displayed, **sort()** (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) function along with **map()** has been used to sort the data based on the engagement. Concept of **rest parameters** (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters) has also been used.
 
 > - This data is then passed to the TableData component as **props**.
 
